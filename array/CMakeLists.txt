@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.0)
+set(Project_name lecode-array)
+set (TARGET_NAME1 11_container_most_water)
+set (TARGET_NAME2 3_longest_substring)
+set (TARGET_NAME3 26_rm_duplicated_from_array)
+set (TARGET_NAME4 167_2sum2)
+
+set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_STANDARD_REQUIRED ON)
+set (CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
+set (PROJECT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+project(${Project_name})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+add_executable(${TARGET_NAME1} 11_container_most_water.c)
+add_executable(${TARGET_NAME2} 3_longest_substring.c)
+add_executable(${TARGET_NAME3} 26_rm_duplicated_from_array.c)
+add_executable(${TARGET_NAME4} 167_2sum2.c)
+
