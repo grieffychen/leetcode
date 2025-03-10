@@ -6,3 +6,4 @@
     c. cd build
     d. cmake ..
     e. make -j8
+4. in queue topics , some sample are not from leetcode
