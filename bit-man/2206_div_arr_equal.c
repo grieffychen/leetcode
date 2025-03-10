@@ -1,5 +1,7 @@
 
 /*
+2206. Divide Array Into Equal Pairs
+
 You are given an integer array nums consisting of 2 * n integers.
 
 You need to divide nums into n pairs such that:
