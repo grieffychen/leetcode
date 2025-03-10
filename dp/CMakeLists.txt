@@ -12,4 +12,7 @@ project(${Project_name})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 add_executable(${TARGET_NAME1} 1043_partition_arr_max_sum.c)
 add_executable(${TARGET_NAME2} 53_maximum_subarray.c)
+add_executable(292_nim_game 292_nim_game.c)
+add_executable(392_is_subsequence 392_is_subsequence.c)
+add_executable(300_longest_increasing_subsequence 300_longest_increasing_subsequence.c)
 
